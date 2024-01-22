@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/index.css">
+  <script src="assets/index.js" defer></script>
+  <title>Cipher</title>
+</head>
+<body>
+  <main>
+    <section>
+      <h1>CIPHER</h1>
+      <textarea></textarea>
+      <p>Apenas letras minúsculas e sem acento.</p>
+      <div class="button-container">
+        <button type="button" onclick="encrypt()" class="button-encripty">Encriptar</button>
+        <button type="button" onclick="decrypt()" class="button-decripty">Decriptar</button>
+      </div>
+    </section>
+    <aside>
+      <div id="empty-list" class="historico-criptografia-vazio"></div>
+      <ul id="actionList">
+        
+      </ul>
+      <footer>
+        <button onclick="clearList()" type="button">clear</button>
+      </footer>
+    </aside>
+  </main>
+</body>
+</html>
